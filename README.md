@@ -271,10 +271,11 @@ The following tools require human confirmation before execution:
 
 ## Getting Started
 
-1. Create an and activate a virtual environment
+1. Create and activate a virtual environment
     ```bash
     uv venv
     source .venv/bin/activate
+    uv sync
     ```
 
 2. Set your environment variables:
